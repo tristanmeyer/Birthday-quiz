@@ -35,10 +35,23 @@ from datetime import datetime
 from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
-if month 
 
 name = str(input("Hello, what is your name? "))
-month = str(input("Hi " + name + " what was the name of the month you were born in? "))
+month = (str(input("Hi " + name + " what was the name of the month you were born in? "))).lower()
 year = int(input("And what year were you born in, " + name + "?"))
 day = int(input("And the day? "))
-print(name + "you are a " + 
+if month == "december" or "january" or "february": 
+    Month = "winter" 
+if month == "march" or "april" or "may": 
+    Month = "spring" 
+if month == "june" or "july" or "august": 
+    Month = "summer" 
+if month == "september" or "october" or "november": 
+    Month = "fall" 
+if year >= 1980 and year <= 1989 : 
+    Year = "eighties"
+if year >= 199- and year <= 1999 : 
+    Year = "nineties"
+if year >= 1980 and year <= 1989 : 
+    Year = ""
+print(name + " you are a " + Month +" baby of the " + Year)
