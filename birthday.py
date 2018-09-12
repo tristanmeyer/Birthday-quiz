@@ -53,5 +53,5 @@ if year >= 1980 and year <= 1989 :
 if year >= 199- and year <= 1999 : 
     Year = "nineties"
 if year >= 1980 and year <= 1989 : 
-    Year = ""
+    Year = "two thousands"
 print(name + " you are a " + Month +" baby of the " + Year)
