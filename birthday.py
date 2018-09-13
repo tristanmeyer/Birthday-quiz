@@ -58,7 +58,7 @@ if year >= 2000 :
     Year = "two thousands."
 print(name + ", you are a " + Month +" baby of the " + Year + ".")
 if day == todaydate:
-    print("Happy Birthday!")
+    print("Happy birthday!")
 if day == 31 and month == "october":
     print("You were born on Halloween!")
 
