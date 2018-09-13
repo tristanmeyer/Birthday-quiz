@@ -49,7 +49,7 @@ if month == "september" or month == "october" or month == "november":
 if month == "june" or month == "july" or month == "august": 
     Month = "summer"    
 if year <= 1979 : 
-    Year = "the stone age"
+    Year = "Stone age"
 if year >= 1980 and year <= 1989 : 
     Year = "eighties"
 if year >= 1990 and year <= 1999 : 
