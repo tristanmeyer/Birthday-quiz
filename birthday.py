@@ -37,16 +37,16 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 name = str(input("Hello, what is your name? "))
-month = (str(input("Hi " + name + " what was the name of the month you were born in? ")).lower())
+month = (str(input("Hi " + name + ", what was the name of the month you were born in? ")).lower())
 year = int(input("And what year were you born in, " + name + "? "))
 day = int(input("And the day? "))
-if month == "december" or "january" or "february": 
+if month == "december" or month == "january" or month =="february": 
     Month = "winter" 
-if month == "march" or "april" or "may": 
+if month == "march" or month == "april" or month == "may": 
     Month = "spring" 
-if month == "september" or "october" or "november": 
+if month == "september" or month == "october" or month == "november": 
     Month = "fall" 
-if month == "june" or "july" or "august": 
+if month == "june" or month == "july" or month == "august": 
     Month = "summer"    
 if year <= 1979 : 
     Year = "the stone age"
@@ -56,7 +56,7 @@ if year >= 1990 and year <= 1999 :
     Year = "nineties"
 if year >= 2000 : 
     Year = "two thousands."
-print(name + " you are a " + Month +" baby of the " + Year)
+print(name + ", you are a " + Month +" baby of the " + Year + ".")
 if day == todaydate:
     print("Happy Birthday!")
 if day == 31 and month == "october":
