@@ -55,7 +55,7 @@ if year >= 1980 and year <= 1989 :
 if year >= 1990 and year <= 1999 : 
     Year = "nineties"
 if year >= 2000 : 
-    Year = "two thousands."
+    Year = "two thousands"
 print(name + ", you are a " + Month +" baby of the " + Year + ".")
 if day == todaydate:
     print("Happy birthday!")
