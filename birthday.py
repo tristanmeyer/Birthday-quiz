@@ -40,7 +40,7 @@ name = str(input("Hello, what is your name? "))
 month = (str(input("Hi " + name + ", what was the name of the month you were born in? ")).lower())
 year = int(input("And what year were you born in, " + name + "? "))
 day = int(input("And the day? "))
-month = month_name[todaymonth]
+
 Month = ""
 if day == 31 and month == "october":
     print("You were born on Halloween!")
