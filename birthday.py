@@ -44,7 +44,7 @@ day = int(input("And the day? "))
 Month = ""
 if day == 31 and month == "october":
     print("You were born on Halloween!")
-elif day == todaydate and month == month_name[todaymonth]:
+elif day == todaydate and month == (month_name[todaymonth]).lower():
     print("Happy birthday!")
 else:
     if month == "december" or month == "january" or month =="february": 
