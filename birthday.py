@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Tristan Meyer
-Credit: None
+Credit: Noah Helped me quite a bit when it came to checking my code
 Assignment:
 
 Your program will ask the user the following questions, in this order:
